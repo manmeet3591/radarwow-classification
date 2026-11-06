@@ -23,9 +23,9 @@ Every algorithm is one class implementing one paper, with the same interface: it
 pip install git+https://github.com/radar-wow/radarwow-core git+https://github.com/radar-wow/radarwow-classification
 ```
 
-## Notebooks (free data, S / C / X band)
+## Notebooks
 
-- The melting layer is used and checked in the [radarwow-verify KTLX notebook](https://github.com/radar-wow/radarwow-verify/blob/main/notebooks/01_ktlx_20220505_vs_mrms.ipynb)
+- Used and checked in the [radarwow-verify notebook](https://github.com/radar-wow/radarwow-verify/blob/main/notebooks/01_ktlx_20220505_vs_mrms.ipynb)
 
 ## Usage
 
