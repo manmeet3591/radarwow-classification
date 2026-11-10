@@ -2,7 +2,7 @@
 
 **radar-wow stage 5: Hydrometeor classification and melting layer.** Melting-layer detection from QVPs, fuzzy-logic / clustering classes.
 
-Part of [radar-wow](https://github.com/radar-wow), a set of repos that together build a radar QPE system that works for S, C and X band radars.
+Part of [radar-wow](https://github.com/manmeet3591/radar-wow), a set of repos that together build a radar QPE system that works for S, C and X band radars.
 Every algorithm is one class implementing one paper, with the same interface: it takes an xradar sweep or volume with canonical moment names, declares the bands and moments it needs, and records provenance.
 
 ## Sub-components
@@ -20,12 +20,12 @@ Every algorithm is one class implementing one paper, with the same interface: it
 ## Install
 
 ```bash
-pip install git+https://github.com/radar-wow/radarwow-core git+https://github.com/radar-wow/radarwow-classification
+pip install git+https://github.com/manmeet3591/radarwow-core git+https://github.com/manmeet3591/radarwow-classification
 ```
 
 ## Notebooks
 
-- Used and checked in the [radarwow-verify notebook](https://github.com/radar-wow/radarwow-verify/blob/main/notebooks/01_ktlx_20220505_vs_mrms.ipynb)
+- Used and checked in the [radarwow-verify notebook `01_ktlx_20220505_vs_mrms.ipynb`](https://github.com/manmeet3591/radarwow-verify/blob/main/notebooks/01_ktlx_20220505_vs_mrms.ipynb)
 
 ## Usage
 
